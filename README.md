@@ -34,7 +34,7 @@ Each top level key is the key on the target object that needs to be validated in
 
 ## Target
 
-The target defaults to req.body, but can point to any object on the request with data.
+The target defaults to req.params, but can point to any object on the request with data.
 
 ## Validation types
 The currently defined validation types are `presence`, `in`, `between`, and `custom`. Any other key in the validation params will be ignored.
