@@ -1,0 +1,63 @@
+{
+  "name": "express-validation-middleware",
+  "version": "1.0.0",
+  "description": "Validation middleware for a node-express server",
+  "main": "index.js",
+  "engines": {
+    "node": "^6.9.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.13.0"
+  },
+  "devDependencies": {
+    "babel-plugin-istanbul": "^3.1.2",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "child-process": "^1.0.2",
+    "del": "^2.2.2",
+    "eslint-plugin-babel": "^4.0.1",
+    "eslint-plugin-filenames": "^1.1.0",
+    "eslint-plugin-jasmine": "^2.2.0",
+    "eslint-plugin-no-unused-vars-rest": "^1.0.4",
+    "eslint-plugin-node": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-load-plugins": "^1.5.0",
+    "nyc": "^10.1.2",
+    "path": "^0.12.7",
+    "pui-react-tools": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natashahull/express_validation_middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natashahull/express_validation_middleware/issues"
+  },
+  "homepage": "https://github.com/natashahull/express_validation_middleware",
+  "nyc": {
+    "lines": 97,
+    "statements": 97,
+    "functions": 95,
+    "branches": 87,
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "include": [
+      "lib/**/*.js"
+    ],
+    "exclude": [
+      "spec/**/*.js"
+    ],
+    "all": true,
+    "check-coverage": true,
+    "cache": true,
+    "sourceMap": false,
+    "instrument": false
+  }
+}
