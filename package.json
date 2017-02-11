@@ -1,6 +1,6 @@
 {
   "name": "express-validation-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validation middleware for a node-express server",
   "main": "validate_middleware.js",
   "dependencies": {
