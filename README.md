@@ -1,4 +1,4 @@
-#Validation Middleware for node express
+#Validation Middleware for node express ![Travis CI](https://travis-ci.org/NatashaHull/express_validation_middleware.svg?branch=master)
 
 ## Usage
 
