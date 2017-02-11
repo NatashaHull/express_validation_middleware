@@ -2,7 +2,7 @@
   "name": "express-validation-middleware",
   "version": "1.0.1",
   "description": "Validation middleware for a node-express server",
-  "main": "index.js",
+  "main": "validate_middleware.js",
   "dependencies": {
     "babel-polyfill": "^6.13.0"
   },
